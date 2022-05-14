@@ -4,7 +4,7 @@ For changing IMEI on TELNET activated Huawei modems
 Supported Systems: Windows OS 
 
 ## 1. Download from release
-Download precompiled binary file from the latest release
+Download precompiled binary file from the [latest release](https://github.com/Kinuseka/Huawei-IMEI-Changer/releases/latest)
 
 
 ## 2. Self Build
