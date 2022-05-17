@@ -91,8 +91,8 @@ function ImeiChange()
                 result = msgbox("Are you sure? "&UserIMEI, 4 , "Select yes or no")
                 If result=6 then
                     If IsNumeric(UserIMEI) Then
-                        ' IsNumeric adds exception to dots and commas due to the fact they are whole/floating point values. github.com/Kinuseka
-                        ' Then the final goal is to check if the string has any characters at ALL. github.com/Kinuseka
+                        ' IsNumeric adds exception to dots and commas due to the fact they are whole/floating point values.
+                        ' Then the final goal is to check if the string has any characters at ALL.
                         If CLonger(UserIMEI) Then
                             If NOT Len(UserIMEI) = 15 then 
                                 msgbox "Your input only contains: " & Len(UserIMEI) & " digits." & vbCrLf & "IMEI requires 15 digits",48,"Lacking digits"
