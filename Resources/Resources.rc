@@ -8,10 +8,10 @@ VS_VERSION_INFO VERSIONINFO
         {
             VALUE "CompanyName",        "Kinuseka\0"
             VALUE "FileDescription",    "For changing IMEI on TELNET activated Huawei modems\0"
-            VALUE "FileVersion",        "1.0.1.0\0"
+            VALUE "FileVersion",        "1.0.1.2\0"
             VALUE "OriginalFilename",   "HIC.exe\0"
             VALUE "ProductName",        "Huawei IMEI Changer\0"
-            VALUE "ProductVersion",     "1.0.1.0\0"
+            VALUE "ProductVersion",     "1.0.1.2\0"
         }
     }
     BLOCK "VarFileInfo"
