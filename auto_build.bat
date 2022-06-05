@@ -17,8 +17,8 @@ call :GETARCHITECTURE
 set V_FileName=HIC_%OS%.exe
 set V_RequirementLink="https://raw.githubusercontent.com/brentvollebregt/auto-py-to-exe/master/requirements.txt"
 set V_Plink64="https://the.earth.li/~sgtatham/putty/latest/w64/plink.exe"
-set V_Plink32="https://the.earth.li/~sgtatham/putty/latest/w32/puttytel.exe"
-set V_Plinkarm64="https://the.earth.li/~sgtatham/putty/latest/wa64/puttytel.exe"
+set V_Plink32="https://the.earth.li/~sgtatham/putty/latest/w32/plink.exe"
+set V_Plinkarm64="https://the.earth.li/~sgtatham/putty/latest/wa64/plink.exe"
 
 :: Binary Resources
 set B_Name=start_execution.exe
