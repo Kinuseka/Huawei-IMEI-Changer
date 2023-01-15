@@ -69,8 +69,7 @@ echo installing requirements
 
 %python_path% -m pip install -r requirements.txt
 
-pyinstaller --noconfirm --onefile --windowed --icon %B_IcoRes% --add-data %File_Plink% --add-data %File_Script% --add-data %File_Wrapper%  %File_MainSRC%
-
+python3 -m PyInstaller --noconfirm --onefile --windowed --icon %B_IcoRes% --add-data %File_Plink% --add-data %File_Script% --add-data %File_Wrapper%  %File_MainSRC%
 IF %ERRORLEVEL% NEQ 0 (
    pause
    goto :EOF
@@ -113,12 +112,12 @@ if %OS% == x86 ( call :PLINK32 )
 EXIT /B %ERRORLEVEL%
 
 :PLINK64 
-%wget% %V_Plink64% -P %F_PlinkLocation%
+%wget% %V_Plink64% -c -P %F_PlinkLocation%
 
 EXIT /B %ERRORLEVEL%
 
 :PLINK32
-%wget% %V_Plink32% -P %F_PlinkLocation%
+%wget% %V_Plink32% -c -P %F_PlinkLocation%
 
 EXIT /B %ERRORLEVEL%
 
